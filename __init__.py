@@ -1,1 +1,1 @@
-from .meinsum import einsum
+from .einsum import einsum
