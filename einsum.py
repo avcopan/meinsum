@@ -14,6 +14,6 @@ def einsum(*args, **kwargs):
     """
     if version.parse(numpy.__version__) >= version.parse('1.12'):
         kwargs['optimize'] = True
-        return einsum(*args, **kwargs)
+        return numpy.einsum(*args, **kwargs)
     else:
-        return einsum(*args, **kwargs)
+        return numpy.einsum(*args, **kwargs)
