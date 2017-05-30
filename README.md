@@ -27,7 +27,7 @@ True
 >>> numpy.allclose(a, d)
 False
 >>> 
->>> # An equivalent way of antisymmetrizing 0, 1 and 2, 3.
+>>> # An equivalent way of separately antisymmetrizing 0, 1 and 2, 3.
 >>> e = A("0/1|2/3") * random_array
 >>> numpy.allclose(d, e)
 True
