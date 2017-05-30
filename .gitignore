@@ -1,3 +1,6 @@
 .idea/
 __pycache__/
 .cache/
+__init__.pyc
+einsum.pyc
+spinorb.pyc
