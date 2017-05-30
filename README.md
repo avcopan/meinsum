@@ -16,7 +16,7 @@ Some examples:
 >>> numpy.allclose(a, b)
 False
 >>> 
->>> # Reduced antisymmetrization of `d`, which is already antisymmetric with
+>>> # Reduced antisymmetrization of `b`, which is already antisymmetric with
 >>> # respect to axes 1 and 2
 >>> c = A("0/1,2/3") * b
 >>> numpy.allclose(a, c)
