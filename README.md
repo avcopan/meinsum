@@ -5,6 +5,7 @@ Some examples:
 ```
 >>> import numpy
 >>> from tensorutils import get_antisymmetrizer_product as A
+>>> 
 >>> random_array = numpy.random.rand(5, 5, 5, 5)
 >>> 
 >>> # Full antisymmetrization.
