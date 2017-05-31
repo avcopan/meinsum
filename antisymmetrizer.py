@@ -105,7 +105,7 @@ class Antisymmetrizer(object):
         shuffles, signs = zip(*pu.sloppy_shuffles(self.axes, self.composition,
                                                   yield_signature=True))
         perm_helper = pu.PermutationHelper(self.axes)
-        permuters = map(perm_helper.make_tuple_permuter, shuffles)
+        permuters = map(perm_helper.make_permuter, shuffles)
         array_axes = range(array.ndim)
         ax_perms = map(lambda p: p(array_axes), permuters)
         ret_array = self.weight * sum(sgn * array.transpose(ax_perm)
