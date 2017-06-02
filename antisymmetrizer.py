@@ -86,6 +86,8 @@ class Antisymmetrizer(object):
             https://en.wikipedia.org/wiki/Riffle_shuffle_permutation
         """
         self.axes = tuple(axes)
+        if composition is None:
+            composition = (1,) * len(self.axes)
         self.composition = tuple(composition)
         self.weight = float(weight)
         self.left_op = left_op
