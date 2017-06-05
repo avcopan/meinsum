@@ -1,7 +1,5 @@
 ## tensorutils
 
-A module for tensor operations that I use a lot.
-
 #### tensorutils.antisym
 `tensorutils.Antisymmetrizer`
 Creates antisymmetrization operators for numpy arrays.
