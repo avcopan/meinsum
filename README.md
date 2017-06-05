@@ -21,7 +21,7 @@ One can also do things like this
 >>> antisymmetric_array = A((0, 1, 2, 3), composition=(2, 2)) * intermedate_array
 ```
 where the first line separately antisymmetrizes with respect to axes 2 
-and 3 and then axes 0 and 1 and the second line performs a reduced 
+and 3 and then axes 0 and 1 and the second performs a reduced 
 antisymmetrization assuming these symmetries.  The final `antisymmetric_array` 
 will be equal to the one above.
 
