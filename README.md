@@ -12,7 +12,7 @@ For example,
 >>> from tensorutils import Antisymmetrizer as A
 >>> antisymmetric_array = A((0, 1, 2, 3)) * random_array
 ```
-sum over all signed permutations of the axes, fully 
+will sum over all signed permutations of the axes, fully 
 antisymmetrizing `random_array`.
 One can also do things like this
 ```
