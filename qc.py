@@ -4,10 +4,10 @@ import numpy as np
 def construct_spinorb_integrals(integrals):
     """Expand a spatial electronic integral array in the spin-orbital basis.
     
-    Take a spatial eletronic integral array of the form
+    Takes a spatial eletronic integral array of the form
         <p_1(1) p_2(2) ...|O_1,2,...|q_1(1) q_2(2) ...>,
     where p_i and q_i's denote orbitals and O_1,2,.. denotes an operator, and
-    expand them in the spin-orbital basis.
+    expands it in the spin-orbital basis.
     
     Args:
         integrals (np.ndarray): Integral array in the spatial orbital basis.

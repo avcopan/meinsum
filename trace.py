@@ -2,6 +2,10 @@ import numpy
 from packaging import version
 
 
+def contract(a, b):
+    return numpy.tensordot(a, b, axes=(0, 0))
+
+
 def einsum(*args, **kwargs):
     """Call optimized einsum if possible
     
