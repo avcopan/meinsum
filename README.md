@@ -1,7 +1,7 @@
-##tensorutils
+#tensorutils
 A module for tensor operations that I use a lot.
 
-####tensorutils.antisym
+##tensorutils.antisym
 `tensorutils.Antisymmetrizer`
 Creates antisymmetrization operators for numpy arrays.
 For example,
@@ -44,7 +44,7 @@ generation of `intermediate_array` above can be performed as follows.
 >>> intermediate_array = asym_prod("0/1|2/3") * random_array
 ```
  
-####tensorutils.trace
+##tensorutils.trace
 `tensorutils.contract` Calls
 `numpy.tensordot(..., ..., axes=(0, 0))`, which I sometimes need to
 use as follows, to apply matrix transforms to each axis of an array.
@@ -62,7 +62,7 @@ use as follows, to apply matrix transforms to each axis of an array.
 `tensorutils.einsum` A wrapper around `numpy.einsum` that calls
 [Daniel Smith](https://github.com/dgasmith)'s optimized version.
 
-####tensorutils.qc
+##tensorutils.qc
 
 `tensorutils.construct_spinorb_integrals`
 Takes a spatial eletronic integral array of the form
