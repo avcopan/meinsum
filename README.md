@@ -31,7 +31,7 @@ Shavitt and Bartlett's Many-Body Methods in Chemistry and Physics.
 For example, the reduced antisymmetrization above would be performed as follows.
 ```
 >>> from tensorutils import get_antisymmetrizer as asym
->>> antisymmetric_array = asym("0,1/2,3") * intermedate_array   # Equivalent to A((0, 1, 2, 3), composition=(2, 2))
+>>> antisymmetric_array = asym("0,1/2,3") * intermedate_array
 ```
 
 `tensorutils.get_antisymmetrizer_product`
